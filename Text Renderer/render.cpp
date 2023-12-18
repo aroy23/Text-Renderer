@@ -89,6 +89,8 @@ int main()
     //    //27. Tests if only thing in file is consecutive paragraph breaks output should be empty
     //    testRender(10, "@P@ @P@", "", 0);
     //    cerr << "Tests complete" << endl;
+    
+    //Enter any specified file path for infile
     ifstream infile("/Users/arnav/Desktop/data.txt");
     int returnCode = render(20, infile, cout);
     cout << "Return code is " << returnCode << endl;

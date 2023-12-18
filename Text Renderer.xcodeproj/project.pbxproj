@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		47008E1D2B0434510064DD34 /* Phase 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Phase 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47008E1D2B0434510064DD34 /* Text Renderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Text Renderer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47008E202B0434510064DD34 /* render.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = render.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		47008E142B0434510064DD34 = {
 			isa = PBXGroup;
 			children = (
-				47008E1F2B0434510064DD34 /* Phase 2 */,
+				47008E1F2B0434510064DD34 /* Text Renderer */,
 				47008E1E2B0434510064DD34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		47008E1E2B0434510064DD34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47008E1D2B0434510064DD34 /* Phase 2 */,
+				47008E1D2B0434510064DD34 /* Text Renderer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47008E1F2B0434510064DD34 /* Phase 2 */ = {
+		47008E1F2B0434510064DD34 /* Text Renderer */ = {
 			isa = PBXGroup;
 			children = (
 				47008E202B0434510064DD34 /* render.cpp */,
 			);
-			path = "Phase 2";
+			path = "Text Renderer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47008E1C2B0434510064DD34 /* Phase 2 */ = {
+		47008E1C2B0434510064DD34 /* Text Renderer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47008E242B0434510064DD34 /* Build configuration list for PBXNativeTarget "Phase 2" */;
+			buildConfigurationList = 47008E242B0434510064DD34 /* Build configuration list for PBXNativeTarget "Text Renderer" */;
 			buildPhases = (
 				47008E192B0434510064DD34 /* Sources */,
 				47008E1A2B0434510064DD34 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Phase 2";
+			name = "Text Renderer";
 			productName = "Phase 2";
-			productReference = 47008E1D2B0434510064DD34 /* Phase 2 */;
+			productReference = 47008E1D2B0434510064DD34 /* Text Renderer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47008E182B0434510064DD34 /* Build configuration list for PBXProject "Phase 2" */;
+			buildConfigurationList = 47008E182B0434510064DD34 /* Build configuration list for PBXProject "Text Renderer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47008E1C2B0434510064DD34 /* Phase 2 */,
+				47008E1C2B0434510064DD34 /* Text Renderer */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +254,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47008E182B0434510064DD34 /* Build configuration list for PBXProject "Phase 2" */ = {
+		47008E182B0434510064DD34 /* Build configuration list for PBXProject "Text Renderer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47008E222B0434510064DD34 /* Debug */,
@@ -263,7 +263,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47008E242B0434510064DD34 /* Build configuration list for PBXNativeTarget "Phase 2" */ = {
+		47008E242B0434510064DD34 /* Build configuration list for PBXNativeTarget "Text Renderer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47008E252B0434510064DD34 /* Debug */,
